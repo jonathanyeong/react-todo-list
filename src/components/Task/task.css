@@ -1,0 +1,9 @@
+.task {
+  border-bottom: 1px solid #A0AEC0;
+  font-size: 20px;
+}
+
+.complete {
+  color: #718096;
+  text-decoration: line-through;
+}

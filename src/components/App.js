@@ -1,12 +1,13 @@
 import React from 'react';
-import Task from './Task';
+import Task from './Task/Task';
 
 class App extends React.Component {
   render() {
     return (
       <div className="todo-container">
+        <h1 class="todo-container__header">React ToDo list</h1>
         <Task completed={false} name="Task 1" />
-        <Task completed={false} name="Task 2" />
+        <Task completed={true} name="Task 2" />
         <Task completed={false} name="Task 3" />
       </div>
     );
