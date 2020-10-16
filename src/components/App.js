@@ -6,9 +6,9 @@ class App extends React.Component {
     return (
       <div className="todo-container">
         <h1 class="todo-container__header">React ToDo list</h1>
-        <Task completed={false} name="Task 1" />
-        <Task completed={true} name="Task 2" />
-        <Task completed={false} name="Task 3" />
+        <Task name="Task 1" />
+        <Task name="Task 2" />
+        <Task name="Task 3" />
       </div>
     );
   }
